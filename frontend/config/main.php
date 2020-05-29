@@ -7,7 +7,9 @@ $params = array_merge(
 );
 
 return [
-    'id' => 'app-frontend',
+    'id' => 'Poin-frontend',
+    'name' => 'Poin Kemahasiswaan',
+    //'title' => 'Poin Kemahasiswaan',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
